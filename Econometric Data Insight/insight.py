@@ -7,6 +7,9 @@ from PySide2.QtWidgets import (
 from PySide2.QtGui import QPixmap
 from PySide2.QtCore import Qt
 import io
+import os
+
+print('Current working directory:', os.getcwd())
 
 class Dashboard(QWidget):
     def __init__(self, df):
